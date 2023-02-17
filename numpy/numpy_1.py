@@ -143,4 +143,9 @@ np.random.randint(1,100,(10,10)) # valores random de 0 a 100 en una matriz 10 x 
 
 arr = np.random.randint(1,10,(3,2))
 
-print(arr.shape)
+print(arr.shape) # sabremos que tan grande es nuestro arreglo
+
+
+
+print(arr.reshape(1,6)) # podemos re asignar la estructura [filas, columbas]
+
